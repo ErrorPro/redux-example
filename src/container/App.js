@@ -7,7 +7,7 @@ import {add, remove, star} from '../actions/actions'
 import {createStore, renderDevTools} from '../utils/devTools'
 
 import FriendListApp from './FriendListApp';
-import * as reducers from '../reduce';
+import * as reducers from '../reducers';
 
 const reducer = combineReducers(reducers);
 const store = createStore(reducer);
